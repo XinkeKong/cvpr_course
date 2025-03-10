@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>天津大学《计算机视觉与模式识别》课程教学大纲</title>
+  <title>天津大学《计算机视觉与模式识别》</title>
   <link rel="icon" href="img/tju.ico"> <!-- 网页图标 -->
   <style>
     body {
@@ -19,6 +19,11 @@
       text-align: center;
       padding: 20px;
     }
+    header h1 {
+      color: white;
+      font-size: 2rem; /* 主标题字体大小 */
+      margin: 0; /* 移除默认外边距 */
+    }
     main {
       max-width: 800px;
       margin: 20px auto;
@@ -27,8 +32,13 @@
       border-radius: 8px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
+  
     h1, h2, h3 {
       color: #005aab;
+    }
+    p {
+      text-indent: 2em; /* 段前缩进 2 个字符宽度 */
+      margin-bottom: 15px;
     }
     ul {
       padding-left: 20px;
@@ -60,19 +70,23 @@
       height: auto;
       border-radius: 5%; /* 图片圆角 */
     }
+    .content-cell {
+      text-align: left;
+    }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>天津大学《计算机视觉与模式识别》课程教学大纲</h1>
-</header>
+  <header>
+    <h1>天津大学《计算机视觉与模式识别》</h1>
+  </header>
+  
 
 <main>
   <section>
     <h2>一、课程基本信息</h2>
     <ul>
-      <li><strong>课程代码：</strong>暂无</li>
+      <li><strong>课程代码：</strong>2440114</li>
       <li><strong>课程名称：</strong>计算机视觉与模式识别</li>
       <li><strong>学时/学分：</strong>32/2</li>
       <li><strong>学时分配：</strong>
@@ -83,11 +97,11 @@
       <li><strong>先修课程：</strong>机器学习</li>
       <li><strong>教材：</strong>无</li>
       <li><strong>主要参考书：</strong>
-        <a href="https://book.douban.com/subject/27087003/" target="_blank">
+        <a href="https://m.bookschina.com/5567427.htm" target="_blank">
           计算机视觉――一种现代方法（第二版）（英文版）
         </a>
         <br>
-        出版社：电子工业出版社 &nbsp;&nbsp; ISBN：9787121318269
+        &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;出版社：电子工业出版社 &nbsp;&nbsp; ISBN：9787121318269
       </li>
     </ul>
   </section>
@@ -113,7 +127,9 @@
   </section>
 
   <section>
-    <h2>三、课程图片展示</h2>
+    <h2>三、课程内容</h2>
+  
+    <!-- 第一章 -->
     <table>
       <tr>
         <td style="padding:2.5%;width:37%;max-width:37%">
@@ -121,18 +137,157 @@
             <img src="img/intro.png" alt="intro photo" style="width:100%;max-width:100%;object-fit:cover;border-radius:5%;">
           </a>
         </td>
-        <td style="padding:2.5%;width:63%;vertical-align:middle">
-          <p>
-            这是一张课程相关的介绍图片，点击图片可以查看大图。图片展示了计算机视觉与模式识别的核心内容。
-          </p>
+        <td class="content-cell" style="width:63%">
+          <h3>第一章 计算机视觉概述 【4课时】</h3>
+          <ul>
+            <li>1.1 计算机视觉的内涵和发展历史</li>
+            <li>1.2 计算机视觉中的数学基础</li>
+            <li>1.3 图像基础</li>
+          </ul>
+          <a href="ppt/intro.pptx">PPT</a>
         </td>
       </tr>
     </table>
+  
+    <!-- 第二章 -->
+    <table>
+      <tr>
+        <td style="padding:2.5%;width:37%;max-width:37%">
+          <a href="img/chapter2.png">
+            <img src="img/chapter2.png" alt="chapter2 photo" style="width:100%;max-width:100%;object-fit:cover;border-radius:5%;">
+          </a>
+        </td>
+        <td class="content-cell" style="width:63%">
+          <h3>第二章 图像底层处理与特征提取 【4课时】</h3>
+          <ul>
+            <li>2.1 图像相关统计模型</li>
+            <li>2.2 基于统计模型的底层图像处理</li>
+            <li>2.3 图像特征提取</li>
+          </ul>
+          <a href="ppt/chapter2.pptx">PPT</a>
+        </td>
+      </tr>
+    </table>
+<!--   
+    <table>
+      <tr>
+        <td style="padding:2.5%;width:37%;max-width:37%">
+          <a href="img/chapter3.png">
+            <img src="img/chapter3.png" alt="chapter3 photo" style="width:100%;max-width:100%;object-fit:cover;border-radius:5%;">
+          </a>
+        </td>
+        <td class="content-cell" style="width:63%">
+          <h3>第三章 图像分类方法 【4课时】</h3>
+          <ul>
+            <li>3.1 图像分类概述</li>
+            <li>3.2 线性分类器与可解释性</li>
+            <li>3.3 深度网络分类模型</li>
+          </ul>
+          <a href="ppt/chapter3.pptx">PPT</a>
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td style="padding:2.5%;width:37%;max-width:37%">
+          <a href="img/chapter4.png">
+            <img src="img/chapter4.png" alt="chapter4 photo" style="width:100%;max-width:100%;object-fit:cover;border-radius:5%;">
+          </a>
+        </td>
+        <td class="content-cell" style="width:63%">
+          <h3>第四章 高级视觉识别方法 【4课时】</h3>
+          <ul>
+            <li>4.1 ILSVRC竞赛发展脉络</li>
+            <li>4.2 AlexNet与ResNet突破</li>
+            <li>4.3 SENet注意力机制</li>
+          </ul>
+          <a href="ppt/chapter4.pptx">PPT</a>
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td style="padding:2.5%;width:37%;max-width:37%">
+          <a href="img/chapter5.png">
+            <img src="img/chapter5.png" alt="chapter5 photo" style="width:100%;max-width:100%;object-fit:cover;border-radius:5%;">
+          </a>
+        </td>
+        <td class="content-cell" style="width:63%">
+          <h3>第五章 生成模型 【4课时】</h3>
+          <ul>
+            <li>5.1 生成对抗网络(GAN)</li>
+            <li>5.2 条件生成对抗网络</li>
+            <li>5.3 深度生成模型应用</li>
+          </ul>
+          <a href="ppt/chapter5.pptx">PPT</a>
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td style="padding:2.5%;width:37%;max-width:37%">
+          <a href="img/chapter6.png">
+            <img src="img/chapter6.png" alt="chapter6 photo" style="width:100%;max-width:100%;object-fit:cover;border-radius:5%;">
+          </a>
+        </td>
+        <td class="content-cell" style="width:63%">
+          <h3>第六章 Diffusion模型 【4课时】</h3>
+          <ul>
+            <li>6.1 Diffusion模型原理</li>
+            <li>6.2 隐空间Diffusion模型</li>
+            <li>6.3 条件生成应用</li>
+          </ul>
+          <a href="ppt/chapter6.pptx">PPT</a>
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td style="padding:2.5%;width:37%;max-width:37%">
+          <a href="img/chapter7.png">
+            <img src="img/chapter7.png" alt="chapter7 photo" style="width:100%;max-width:100%;object-fit:cover;border-radius:5%;">
+          </a>
+        </td>
+        <td class="content-cell" style="width:63%">
+          <h3>第七章 Transformer模型 【4课时】</h3>
+          <ul>
+            <li>7.1 Transformer架构</li>
+            <li>7.2 视觉Transformer</li>
+            <li>7.3 与Diffusion结合</li>
+          </ul>
+          <a href="ppt/chapter7.pptx">PPT</a>
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td style="padding:2.5%;width:37%;max-width:37%">
+          <a href="img/chapter8.png">
+            <img src="img/chapter8.png" alt="chapter8 photo" style="width:100%;max-width:100%;object-fit:cover;border-radius:5%;">
+          </a>
+        </td>
+        <td class="content-cell" style="width:63%">
+          <h3>第八章 多模态大模型 【4课时】</h3>
+          <ul>
+            <li>8.1 多模态表征学习</li>
+            <li>8.2 模态对齐方法</li>
+            <li>8.3 典型模型应用</li>
+          </ul>
+          <a href="ppt/chapter8.pptx">PPT</a>
+        </td>
+      </tr>
+    </table> -->
+  
   </section>
 </main>
 
 <footer>
-  天津大学人工智能学院 © 2023
+  天津大学智算学部 © 2025
 </footer>
 
 </body>
